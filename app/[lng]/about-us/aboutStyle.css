@@ -1,0 +1,38 @@
+.title-1::before {
+  content: "";
+  color: "blue";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  bottom: 20px;
+  width: 4px;
+  background-color: rgb(72, 174,221); 
+}
+.title-2::before {
+    content: "";
+    color: "black";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    bottom: 5px;
+    width: 4px;
+    background-color: rgb(72, 174,221); 
+  }
+  #about-us :any-link{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(72, 174,221);
+    text-decoration: none;
+  }
+
+  #about-us p {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    color: rgba(33, 37, 41, 0.75)
+  }
+
+  #about-us h2 {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+  }

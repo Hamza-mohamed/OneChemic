@@ -1,0 +1,21 @@
+.image{
+    transition: all .3s;
+    width: 80%;
+}
+
+.image:hover{
+    scale: 1.05;
+}
+
+.card {
+    height: 400px;
+    transition: all .7s;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: rgba(107, 108, 124, 0.418);
+}
+.div{
+    background-color: rgb(207, 141, 9);
+}
